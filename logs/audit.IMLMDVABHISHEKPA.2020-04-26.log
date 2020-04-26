@@ -1,0 +1,319 @@
+2020-04-26 11:09:54,452 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 14699 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 11:09:54,468 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 11:09:54,839 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.866 seconds (JVM running for 1.478)
+2020-04-26 11:10:16,545 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 14787 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 11:10:16,548 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 11:10:16,957 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.954 seconds (JVM running for 1.823)
+2020-04-26 11:10:16,968 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - motka.abhishek.auditor.TestObject.print
+Argument: motka.abhishek.auditor.Modal@73cd37c0[hello=0,valid=true,world=1]
+
+2020-04-26 11:10:23,014 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 14795 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 11:10:23,016 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 11:10:23,372 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.598 seconds (JVM running for 1.109)
+2020-04-26 11:10:23,381 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - motka.abhishek.auditor.TestObject.print
+Argument: motka.abhishek.auditor.Modal@49ff7d8c[hello=0,valid=true,world=1]
+
+2020-04-26 11:12:19,879 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - Starting AuditorApplicationTests on IMLMDVABHISHEKPA with PID 15231 (started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 11:12:19,880 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-26 11:12:20,305 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - Started AuditorApplicationTests in 0.719 seconds (JVM running for 1.412)
+2020-04-26 11:26:46,896 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 15415 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 11:26:46,899 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 11:26:47,282 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.856 seconds (JVM running for 1.497)
+2020-04-26 11:27:07,617 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 15504 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 11:27:07,619 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 11:27:07,967 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.799 seconds (JVM running for 1.597)
+2020-04-26 11:27:07,977 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - motka.abhishek.auditor.TestObject.print
+Argument: motka.abhishek.auditor.Modal@45312be2[hello=0,valid=true,world=1]
+
+2020-04-26 11:33:01,848 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - Starting AuditorApplicationTests on IMLMDVABHISHEKPA with PID 15771 (started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 11:33:01,849 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-26 11:33:02,188 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - Started AuditorApplicationTests in 0.564 seconds (JVM running for 1.239)
+2020-04-26 11:34:40,546 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 15800 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 11:34:40,552 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 11:34:41,068 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.965 seconds (JVM running for 1.622)
+2020-04-26 11:35:08,224 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 15831 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 11:35:08,227 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 11:35:08,692 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.769 seconds (JVM running for 1.268)
+2020-04-26 11:35:08,702 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - motka.abhishek.auditor.TestObject.print
+Argument: motka.abhishek.auditor.Modal@77128536[hello=0,valid=true,world=1]
+
+2020-04-26 11:35:21,945 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - Starting AuditorApplicationTests on IMLMDVABHISHEKPA with PID 15847 (started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 11:35:21,946 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-26 11:35:22,289 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - Started AuditorApplicationTests in 0.616 seconds (JVM running for 1.504)
+2020-04-26 11:37:41,088 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - Starting AuditorApplicationTests on IMLMDVABHISHEKPA with PID 16208 (started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 11:37:41,089 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-26 11:37:41,840 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - Started AuditorApplicationTests in 1.025 seconds (JVM running for 1.724)
+2020-04-26 11:45:21,263 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 16543 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 11:45:21,268 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 11:45:21,844 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.838 seconds (JVM running for 1.334)
+2020-04-26 11:45:21,856 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - motka.abhishek.auditor.TestObject.print
+Argument: motka.abhishek.auditor.Modal@18a136ac[hello=0,valid=true,world=1]
+
+2020-04-26 11:45:34,182 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - Starting AuditorApplicationTests on IMLMDVABHISHEKPA with PID 16558 (started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 11:45:34,183 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-26 11:45:34,633 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - Started AuditorApplicationTests in 0.729 seconds (JVM running for 1.624)
+2020-04-26 12:14:41,198 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 18112 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 12:14:41,202 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 12:14:41,757 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.824 seconds (JVM running for 1.404)
+2020-04-26 12:14:41,768 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - motka.abhishek.auditor.TestObject.print
+Argument: motka.abhishek.auditor.Modal@149dd36b[hello=0,valid=true,world=1]
+
+2020-04-26 12:15:02,689 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - Starting AuditorApplicationTests on IMLMDVABHISHEKPA with PID 18256 (started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 12:15:02,690 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-26 12:15:03,091 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - Started AuditorApplicationTests in 0.65 seconds (JVM running for 1.455)
+2020-04-26 12:17:24,157 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - Starting AuditorApplicationTests on IMLMDVABHISHEKPA with PID 18858 (started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 12:17:24,158 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-26 12:17:24,585 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - Started AuditorApplicationTests in 0.679 seconds (JVM running for 1.456)
+2020-04-26 12:21:58,600 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 19508 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 12:21:58,603 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 12:21:59,153 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 1.148 seconds (JVM running for 1.897)
+2020-04-26 12:22:01,611 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - motka.abhishek.auditor.TestObject.print
+Argument: motka.abhishek.auditor.Modal@5f462e3b[hello=0,valid=true,world=1]
+
+2020-04-26 12:22:25,599 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 19514 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 12:22:25,602 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 12:22:26,033 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.739 seconds (JVM running for 1.48)
+2020-04-26 12:24:41,710 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - motka.abhishek.auditor.TestObject.print
+Argument: motka.abhishek.auditor.Modal@23eee4b8[hello=0,valid=true,world=1]
+
+2020-04-26 12:27:26,873 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 20505 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 12:27:26,877 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 12:27:27,427 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.987 seconds (JVM running for 1.756)
+2020-04-26 12:29:36,842 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 20521 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 12:29:36,845 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 12:29:37,316 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.822 seconds (JVM running for 1.34)
+2020-04-26 12:31:52,131 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 20565 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 12:31:52,134 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 12:31:52,618 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.983 seconds (JVM running for 1.679)
+2020-04-26 12:32:17,144 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 20570 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 12:32:17,146 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 12:32:17,588 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.755 seconds (JVM running for 1.455)
+2020-04-26 12:32:20,259 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - motka.abhishek.auditor.TestObject.print
+Argument: motka.abhishek.auditor.Modal@40226788[hello=0,valid=true,world=1]
+
+2020-04-26 12:33:52,880 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 20601 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 12:33:52,882 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 12:33:53,315 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.792 seconds (JVM running for 1.591)
+2020-04-26 12:35:51,014 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - motka.abhishek.auditor.TestObject.print
+Argument: motka.abhishek.auditor.Modal@29d37757[hello=0,valid=true,world=1]
+
+2020-04-26 12:35:55,538 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 20616 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 12:35:55,541 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 12:35:56,000 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.797 seconds (JVM running for 1.4)
+2020-04-26 12:36:09,277 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - motka.abhishek.auditor.TestObject.print
+Argument: motka.abhishek.auditor.Modal@c68a5f8[hello=0,valid=true,world=1]
+
+2020-04-26 12:36:45,358 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 20660 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 12:36:45,362 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 12:36:45,815 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.813 seconds (JVM running for 1.524)
+2020-04-26 12:36:56,126 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - motka.abhishek.auditor.TestObject.print
+Argument: motka.abhishek.auditor.Modal@a8a8b75[hello=0,valid=true,world=1]
+
+2020-04-26 13:51:12,547 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 21341 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 13:51:12,550 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 13:51:13,115 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 1.193 seconds (JVM running for 1.897)
+2020-04-26 13:51:13,138 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.print Arguments: arg0=motka.abhishek.auditor.Modal@50468873[hello=0,valid=true,world=1]&
+2020-04-26 13:51:50,671 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 21351 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 13:51:50,676 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 13:51:51,424 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 1.208 seconds (JVM running for 2.199)
+2020-04-26 13:57:16,961 IMLMDVABHISHEKPA WARN  RMI TCP Connection(2)-192.168.43.185 javax.management.remote.misc - The server has decided to close this client connection.
+2020-04-26 13:57:16,972 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.print Arguments: arg0=motka.abhishek.auditor.Modal@e8fadb0[hello=0,valid=true,world=1]&
+2020-04-26 13:57:21,585 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 21457 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 13:57:21,588 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 13:57:22,025 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.777 seconds (JVM running for 1.714)
+2020-04-26 14:07:03,965 IMLMDVABHISHEKPA WARN  RMI TCP Connection(2)-192.168.43.185 javax.management.remote.misc - The server has decided to close this client connection.
+2020-04-26 14:07:03,990 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.print Arguments: arg0=motka.abhishek.auditor.Modal@2bc12da[hello=0,valid=true,world=1]&
+2020-04-26 14:07:08,063 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 22946 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 14:07:08,067 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 14:07:08,487 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.798 seconds (JVM running for 1.413)
+2020-04-26 14:07:08,506 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.print Arguments: arg0=motka.abhishek.auditor.Modal@4758820d[hello=0,valid=true,world=1]&
+2020-04-26 14:07:38,383 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 22953 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 14:07:38,386 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 14:07:38,794 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.658 seconds (JVM running for 1.188)
+2020-04-26 14:08:04,541 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23010 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 14:08:04,543 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 14:08:05,046 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.937 seconds (JVM running for 1.891)
+2020-04-26 14:08:05,065 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.print Arguments: arg0=motka.abhishek.auditor.Modal@517d4a0d[hello=0,valid=true,world=1]&
+2020-04-26 14:22:55,446 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23247 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 14:22:55,448 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 14:22:55,883 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.701 seconds (JVM running for 1.306)
+2020-04-26 14:22:55,898 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.print Arguments: arg0=motka.abhishek.auditor.Modal@53fd0d10[hello=0,valid=true,world=1]&
+2020-04-26 14:23:10,305 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23260 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 14:23:10,307 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 14:23:10,711 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.645 seconds (JVM running for 1.151)
+2020-04-26 14:23:19,464 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23263 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 14:23:19,466 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 14:23:19,892 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.676 seconds (JVM running for 1.186)
+2020-04-26 14:25:00,329 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - Starting AuditorApplicationTests on IMLMDVABHISHEKPA with PID 23315 (started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 14:25:00,331 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-26 14:25:00,893 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - Started AuditorApplicationTests in 0.867 seconds (JVM running for 1.777)
+2020-04-26 14:25:22,124 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - Starting AuditorApplicationTests on IMLMDVABHISHEKPA with PID 23327 (started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 14:25:22,126 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-26 14:25:22,675 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - Started AuditorApplicationTests in 0.855 seconds (JVM running for 1.731)
+2020-04-26 14:25:27,312 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23333 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 14:25:27,318 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 14:25:27,849 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.822 seconds (JVM running for 1.34)
+2020-04-26 14:25:27,864 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.print Arguments: arg0=motka.abhishek.auditor.Modal@55322aab[hello=0,valid=true,world=1]&
+2020-04-26 14:25:55,026 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23346 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 14:25:55,030 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 14:25:55,521 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 1.015 seconds (JVM running for 1.902)
+2020-04-26 14:25:55,536 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.print Arguments: arg0=motka.abhishek.auditor.Modal@25aca718[hello=0,valid=true,world=1]&
+2020-04-26 14:26:14,967 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23373 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 14:26:14,969 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 14:26:15,365 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.856 seconds (JVM running for 1.489)
+2020-04-26 14:27:31,778 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23392 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 14:27:31,780 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 14:27:32,217 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.895 seconds (JVM running for 1.675)
+2020-04-26 14:27:32,231 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.print Arguments: arg0=motka.abhishek.auditor.Modal@6e950bcf[hello=0,valid=true,world=1]&
+2020-04-26 14:28:38,204 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23476 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 14:28:38,208 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 14:28:38,605 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.857 seconds (JVM running for 1.49)
+2020-04-26 14:28:38,619 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.print Arguments: arg0=motka.abhishek.auditor.Modal@525575[hello=0,valid=true,world=1]&
+2020-04-26 14:28:38,619 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.printHello Arguments: arg0=Abhishek&
+2020-04-26 14:29:10,029 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23486 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 14:29:10,031 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 14:29:10,443 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.865 seconds (JVM running for 1.502)
+2020-04-26 14:29:10,458 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.print Arguments: arg0=motka.abhishek.auditor.Modal@4612b856[valid=true,world=1]&
+2020-04-26 14:29:10,458 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.printHello Arguments: arg0=Abhishek&
+2020-04-26 14:31:19,735 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23509 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 14:31:19,737 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 14:31:20,127 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.841 seconds (JVM running for 1.613)
+2020-04-26 14:31:20,145 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.print Arguments: { arg0=motka.abhishek.auditor.Modal@5b1ebf56[valid=true,world=1] }
+2020-04-26 14:31:20,145 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.printHello Arguments: { arg0=Abhishek }
+2020-04-26 14:31:48,154 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23519 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 14:31:48,162 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 14:31:48,628 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.873 seconds (JVM running for 1.476)
+2020-04-26 14:31:48,643 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.print Arguments: { arg0=motka.abhishek.auditor.Modal@2dcd168a[world=1] }
+2020-04-26 14:31:48,643 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.printHello Arguments: { arg0=Abhishek }
+2020-04-26 14:32:07,352 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23525 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 14:32:07,360 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 14:32:07,940 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.913 seconds (JVM running for 1.509)
+2020-04-26 14:32:07,956 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.print Arguments: { arg0=motka.abhishek.auditor.Modal@4ce7fffa[hello=0,valid=true,world=1] }
+2020-04-26 14:32:07,956 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.printHello Arguments: { arg0=Abhishek }
+2020-04-26 14:32:26,037 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23531 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 14:32:26,039 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 14:32:26,424 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.866 seconds (JVM running for 1.569)
+2020-04-26 14:32:26,439 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.print Arguments: { arg0=motka.abhishek.auditor.Modal@5143c662[hello=0,valid=true,world=1] }
+2020-04-26 14:32:26,439 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.printHello Arguments: { arg0=********** }
+2020-04-26 14:44:33,178 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23627 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 14:44:33,180 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 14:44:33,593 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.806 seconds (JVM running for 1.697)
+2020-04-26 14:44:33,608 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.print Arguments: { arg0=motka.abhishek.auditor.Modal@6995bf68[hello=0,valid=true,world=1] }
+2020-04-26 14:45:25,376 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23636 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 14:45:25,379 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 14:45:25,775 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.857 seconds (JVM running for 1.673)
+2020-04-26 14:45:25,792 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.print Arguments: { arg0=motka.abhishek.auditor.Modal@5d12a356[hello=0,valid=true,world=1] }
+2020-04-26 14:45:25,793 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Exiting << motka.abhishek.auditor.TestObject.print Returned: null
+2020-04-26 14:45:25,793 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.printHello Arguments: { arg0=********** }
+2020-04-26 14:45:25,793 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Exiting << motka.abhishek.auditor.TestObject.printHello Returned: null
+2020-04-26 15:03:59,186 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23873 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 15:03:59,189 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 15:03:59,576 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.78 seconds (JVM running for 1.745)
+2020-04-26 15:03:59,591 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.print Arguments: { arg0=motka.abhishek.auditor.Modal@53fd0d10[hello=0,valid=true,world=1] }
+2020-04-26 15:03:59,592 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second  ]Exiting << motka.abhishek.auditor.TestObject.print Returned: null
+2020-04-26 15:03:59,593 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.printHello Arguments: { arg0=********** }
+2020-04-26 15:03:59,593 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second  ]Exiting << motka.abhishek.auditor.TestObject.printHello Returned: null
+2020-04-26 15:04:38,334 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23881 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 15:04:38,336 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 15:04:38,734 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.757 seconds (JVM running for 1.735)
+2020-04-26 15:04:38,750 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.print Arguments: { arg0=motka.abhishek.auditor.Modal@6fb365ed[hello=0,valid=true,world=1] }
+2020-04-26 15:04:38,751 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ]Exiting << motka.abhishek.auditor.TestObject.print Returned: null
+2020-04-26 15:04:38,751 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.printHello Arguments: { arg0=********** }
+2020-04-26 15:04:38,751 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ]Exiting << motka.abhishek.auditor.TestObject.printHello Returned: null
+2020-04-26 15:05:11,029 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23891 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 15:05:11,031 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 15:05:11,430 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.682 seconds (JVM running for 1.787)
+2020-04-26 15:05:11,446 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.print Arguments: { arg0=motka.abhishek.auditor.Modal@4b3ed2f0[hello=0,valid=true,world=1] }
+2020-04-26 15:05:11,447 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.print Returned: null
+2020-04-26 15:05:11,447 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.printHello Arguments: { arg0=********** }
+2020-04-26 15:05:11,447 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.printHello Returned: null
+2020-04-26 15:06:32,719 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23903 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 15:06:32,721 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 15:06:33,119 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.753 seconds (JVM running for 1.724)
+2020-04-26 15:06:33,135 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Entering >> motka.abhishek.auditor.TestObject.print Arguments: { arg0=motka.abhishek.auditor.Modal@3da30852[hello=0,valid=true,world=1] }
+2020-04-26 15:06:33,136 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.print Returned: null
+2020-04-26 15:06:33,136 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Entering >> motka.abhishek.auditor.TestObject.printHello Arguments: { arg0=********** }
+2020-04-26 15:06:33,136 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.printHello Returned: null
+2020-04-26 15:07:15,698 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23913 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 15:07:15,700 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 15:07:16,102 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.841 seconds (JVM running for 1.484)
+2020-04-26 15:07:16,117 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Entering >> motka.abhishek.auditor.TestObject.print Arguments: { arg0=motka.abhishek.auditor.Modal@7ca20101[hello=0,valid=true,world=1] }
+2020-04-26 15:07:16,118 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.print Returned: motka.abhishek.auditor.Modal@7ca20101[hello=0,valid=true,world=1]
+2020-04-26 15:07:16,118 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Entering >> motka.abhishek.auditor.TestObject.printHello Arguments: { arg0=********** }
+2020-04-26 15:07:16,119 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.printHello Returned: null
+2020-04-26 15:07:55,925 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23926 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 15:07:55,927 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 15:07:56,321 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.852 seconds (JVM running for 1.582)
+2020-04-26 15:07:56,336 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Entering >> motka.abhishek.auditor.TestObject.print Arguments: { arg0=motka.abhishek.auditor.Modal@7ac0e420[hello=0,valid=true,world=1] }
+2020-04-26 15:07:56,337 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.print Returned: motka.abhishek.auditor.Modal@7ac0e420[valid=true,world=1]
+2020-04-26 15:07:56,337 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Entering >> motka.abhishek.auditor.TestObject.printHello Arguments: { arg0=********** }
+2020-04-26 15:07:56,337 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.printHello Returned: null
+2020-04-26 15:08:27,031 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23933 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 15:08:27,034 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 15:08:27,424 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.857 seconds (JVM running for 1.5)
+2020-04-26 15:08:27,439 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.print Arguments: { arg0=motka.abhishek.auditor.Modal@78383390[hello=0,valid=true,world=1] }
+2020-04-26 15:08:27,440 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Exiting << motka.abhishek.auditor.TestObject.print Returned: motka.abhishek.auditor.Modal@78383390[valid=true,world=1]
+2020-04-26 15:08:27,440 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Entering >> motka.abhishek.auditor.TestObject.printHello Arguments: { arg0=********** }
+2020-04-26 15:08:27,441 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - Exiting << motka.abhishek.auditor.TestObject.printHello Returned: null
+2020-04-26 15:08:51,408 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 23940 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 15:08:51,415 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 15:08:51,828 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.877 seconds (JVM running for 1.548)
+2020-04-26 15:08:51,844 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Entering >> motka.abhishek.auditor.TestObject.print Arguments: { arg0=motka.abhishek.auditor.Modal@2a448449[hello=0,valid=true,world=1] }
+2020-04-26 15:08:51,845 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.print Returned: motka.abhishek.auditor.Modal@2a448449[valid=true,world=1]
+2020-04-26 15:08:51,845 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Entering >> motka.abhishek.auditor.TestObject.printHello Arguments: { arg0=********** }
+2020-04-26 15:08:51,846 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.printHello Returned: null
+2020-04-26 15:20:30,390 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 24195 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 15:20:30,394 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 15:20:30,787 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.865 seconds (JVM running for 1.499)
+2020-04-26 15:20:30,803 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Entering >> motka.abhishek.auditor.TestObject.print Arguments: { arg0=motka.abhishek.auditor.Modal@41d426b5[hello=0,valid=true,world=1] }
+2020-04-26 15:20:30,804 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.print Returned: motka.abhishek.auditor.Modal@41d426b5[valid=true,world=1]
+2020-04-26 15:20:30,804 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Entering >> motka.abhishek.auditor.TestObject.printHello Arguments: { arg0=********** }
+2020-04-26 15:20:30,804 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.printHello Returned: null
+2020-04-26 15:29:53,365 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 24668 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 15:29:53,369 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 15:29:53,766 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.885 seconds (JVM running for 1.544)
+2020-04-26 15:29:53,782 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Entering >> motka.abhishek.auditor.TestObject.print Arguments: { arg0=motka.abhishek.auditor.Modal@691939c9[hello=0,valid=true,world=1] }
+2020-04-26 15:29:53,783 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.print Returned: motka.abhishek.auditor.Modal@691939c9[valid=true,world=1]
+2020-04-26 15:29:53,783 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Entering >> motka.abhishek.auditor.TestObject.printHello Arguments: { arg0=********** }
+2020-04-26 15:29:53,783 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.printHello Exception: java.lang.NullPointerException
+	motka.abhishek.auditor.TestObject.printHello(TestObject.java:15)
+	motka.abhishek.auditor.AuditorApplication.main(AuditorApplication.java:14)
+2020-04-26 15:31:01,732 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 24683 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 15:31:01,734 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 15:31:02,137 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.761 seconds (JVM running for 1.731)
+2020-04-26 15:31:02,153 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Entering >> motka.abhishek.auditor.TestObject.print Arguments: { arg0=motka.abhishek.auditor.Modal@47f9738[hello=0,valid=true,world=1] }
+2020-04-26 15:31:02,154 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.print Returned: motka.abhishek.auditor.Modal@47f9738[valid=true,world=1]
+2020-04-26 15:31:02,155 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Entering >> motka.abhishek.auditor.TestObject.printHello Arguments: { arg0=********** }
+2020-04-26 15:31:02,155 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.printHello Exception: java.lang.NullPointerException
+			motka.abhishek.auditor.TestObject.printHello(TestObject.java:15)
+			motka.abhishek.auditor.AuditorApplication.main(AuditorApplication.java:14)
+2020-04-26 15:32:12,889 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 24720 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 15:32:12,891 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 15:32:13,271 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.791 seconds (JVM running for 1.654)
+2020-04-26 15:32:13,287 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Entering >> motka.abhishek.auditor.TestObject.print Arguments: { arg0=motka.abhishek.auditor.Modal@74bada02[hello=0,valid=true,world=1] }
+2020-04-26 15:32:13,288 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.print Returned: motka.abhishek.auditor.Modal@74bada02[valid=true,world=1]
+2020-04-26 15:32:13,288 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Entering >> motka.abhishek.auditor.TestObject.printHello Arguments: { arg0=********** }
+2020-04-26 15:32:13,289 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.printHello Exception: java.lang.NullPointerException Message: name can't be null
+			motka.abhishek.auditor.TestObject.printHello(TestObject.java:15)
+			motka.abhishek.auditor.AuditorApplication.main(AuditorApplication.java:14)
+2020-04-26 15:33:42,139 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 24738 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 15:33:42,141 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 15:33:42,513 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.823 seconds (JVM running for 1.624)
+2020-04-26 15:33:42,529 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Entering >> motka.abhishek.auditor.TestObject.print Arguments: { arg0=motka.abhishek.auditor.Modal@f316aeb[hello=0,valid=true,world=1] }
+2020-04-26 15:33:42,530 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.print Returned: motka.abhishek.auditor.Modal@f316aeb[valid=true,world=1]
+2020-04-26 15:33:42,530 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Entering >> motka.abhishek.auditor.TestObject.printHello Arguments: { arg0=********** }
+2020-04-26 15:33:42,530 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.printHello Exception: java.lang.NullPointerException Message: name can't be null
+			motka.abhishek.auditor.TestObject.printHello(TestObject.java:15)
+			motka.abhishek.auditor.AuditorApplication.main(AuditorApplication.java:14)
+2020-04-26 15:35:24,919 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Starting AuditorApplication on IMLMDVABHISHEKPA with PID 24773 (/Users/abhishek.pa/work/auditor/target/classes started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 15:35:24,921 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - No active profile set, falling back to default profiles: default
+2020-04-26 15:35:25,364 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplication - Started AuditorApplication in 0.92 seconds (JVM running for 1.657)
+2020-04-26 15:35:25,381 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Entering >> motka.abhishek.auditor.TestObject.print Arguments: { arg0=motka.abhishek.auditor.Modal@487db668[hello=0,valid=true,world=1] }
+2020-04-26 15:35:25,382 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.print Returned: motka.abhishek.auditor.Modal@487db668[valid=true,world=1]
+2020-04-26 15:35:25,382 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Entering >> motka.abhishek.auditor.TestObject.printHello Arguments: { arg0=********** }
+2020-04-26 15:35:25,383 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.aspects.AuditAspect - [ First Second ] Exiting << motka.abhishek.auditor.TestObject.printHello Exception: java.lang.NullPointerException Message: name can't be null
+			motka.abhishek.auditor.TestObject.printHello(TestObject.java:15)
+			motka.abhishek.auditor.AuditorApplication.main(AuditorApplication.java:14)
+2020-04-26 15:36:18,738 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - Starting AuditorApplicationTests on IMLMDVABHISHEKPA with PID 24816 (started by abhishek.pa in /Users/abhishek.pa/work/auditor)
+2020-04-26 15:36:18,740 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - No active profile set, falling back to default profiles: default
+2020-04-26 15:36:19,184 IMLMDVABHISHEKPA INFO  main motka.abhishek.auditor.AuditorApplicationTests - Started AuditorApplicationTests in 0.721 seconds (JVM running for 1.545)
