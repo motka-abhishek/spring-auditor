@@ -14,6 +14,7 @@ import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.beans.factory.annotation.Autowire;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Configurable;
+import org.springframework.beans.factory.annotation.Value;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
@@ -44,16 +45,16 @@ public class AuditAspect
     @Autowired(required = false)
     private List<LogAppender> logAppenders;
 
+    @Value("${spring.application.name}")
+    private String APPLICATION_NAME;
+
     @Before("execution(* (@motka.abhishek.auditor.annotations.Audit *).*(..))")
     public void logMethodEntry(JoinPoint joinPoint)
     {
         Method method = getJoinPointMethod(joinPoint);
         if (Objects.nonNull(method.getAnnotation(DoNotAudit.class))) return;
 
-        String entryMethodLog = new StringBuilder(getAppendedLogs())
-                .append("Entering >> ")
-                .append(getFullyQualifiedMethodName(joinPoint))
-                .append(" ")
+        String entryMethodLog = getLogBuilder(joinPoint, true)
                 .append(getParamsAsString(joinPoint))
                 .toString();
         logger.info(entryMethodLog);
@@ -64,11 +65,8 @@ public class AuditAspect
         Method method = getJoinPointMethod(joinPoint);
         if (Objects.nonNull(method.getAnnotation(DoNotAudit.class))) return;
 
-        String exitMethodLog = new StringBuilder(getAppendedLogs())
-                .append("Exiting << ")
-                .append(getFullyQualifiedMethodName(joinPoint))
-                .append(" ")
-                .append("Returned: ")
+        String exitMethodLog = getLogBuilder(joinPoint, false)
+                .append(" Returned: ")
                 .append(getReturnValueAsString(method, retValue))
                 .toString();
         logger.info(exitMethodLog);
@@ -79,15 +77,21 @@ public class AuditAspect
         Method method = getJoinPointMethod(joinPoint);
         if (Objects.nonNull(method.getAnnotation(DoNotAudit.class))) return;
 
-        String methodExceptionLog = new StringBuilder(getAppendedLogs())
-                .append("Exiting << ")
-                .append(getFullyQualifiedMethodName(joinPoint))
-                .append(" ")
-                .append("Exception: ")
+        String methodExceptionLog = getLogBuilder(joinPoint, false)
+                .append(" Exception: ")
                 .append(getExceptionAsString(ex))
                 .toString();
 
         logger.info(methodExceptionLog);
+    }
+
+    private StringBuilder getLogBuilder(final JoinPoint joinPoint, boolean isEntry) {
+        return new StringBuilder("{ ")
+                .append(APPLICATION_NAME)
+                .append(" } - ")
+                .append(getAppendedLogs())
+                .append(isEntry ? "Entering >>> " : "Exiting <<< ")
+                .append(getFullyQualifiedMethodName(joinPoint));
     }
 
     private String getExceptionAsString(final Throwable throwable) {

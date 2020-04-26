@@ -6,13 +6,13 @@
 
     <appender name="ConsoleAppender" class="ch.qos.logback.core.ConsoleAppender">
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
-            <Pattern>%d ${HOSTNAME} %-5level %t %logger - %msg%n</Pattern>
+            <Pattern>%d ${HOSTNAME} %-5level %t %logger %msg%n</Pattern>
         </encoder>
     </appender>
 
     <appender name="AUDIT-FILE-LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
-            <Pattern>%d ${HOSTNAME} %-5level %t %logger - %msg%n</Pattern>
+            <Pattern>%d ${HOSTNAME} %-5level %t %logger %msg%n</Pattern>
         </encoder>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>${LOG_DIR}/${AUDIT_LOG_FILE}.${HOSTNAME}.%d{yyyy-MM-dd}.log</fileNamePattern>
@@ -22,7 +22,7 @@
 
     <appender name="ERROR-FILE-LOG" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
-            <Pattern>%d ${HOSTNAME} %-5level %t %logger - %msg%n</Pattern>
+            <Pattern>%d ${HOSTNAME} %-5level %t %logger %msg%n</Pattern>
         </encoder>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <fileNamePattern>${LOG_DIR}/${ERROR_LOG_FILE}.${HOSTNAME}.%d{yyyy-MM-dd}.log</fileNamePattern>
