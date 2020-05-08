@@ -28,7 +28,7 @@ In your project's pom.xml file add dependency for spring-auditor:
     * To exclude any method from logging annotate that method with `@DoNotAudit` annotation.
     * To exclude any parameter from logging annotate parameter of method with `@DoNotAudit` annotation.
 * To mask any critical information annotate that parameter or return type with `@Mask` annotation
-    * If masked return value or parameter is of primitive type (Integer, Short, Byte, Long, Float, Double,  Boolean, String, Character) then value of it will be masked with `*******`.
+    * If masked return value or parameter is of primitive type (Integer, Short, Byte, Long, Float, Double,  Boolean, String, Character) then value will be masked with `*******`.
     * If masked return value or parameter is not of primitive type then all the fields mentioned as value of `@Mask({field1, field2})` will be excluded from logs.
     
 ## Logging Format
@@ -71,7 +71,7 @@ This can be generalized as:
 
 ## Log Appenders
 
-Often we need to customize our logs and required to add extra details like TraceId or application specific details. Spring-Auditor provides LogAppender interface for the same purpose. If you want to add extra details to logs then you need to create a spring bean which implements LogAppender interface and return those extra details from `appendLog()` method of the interface.
+Often we need to customize our logs and required to add extra details like TraceId or application specific details. Spring-Auditor provides LogAppender interface for the same purpose. If you want to add extra details to logs then you need to create a spring bean which implements LogAppender interface and return those extra details from `appendToLog()` method of the interface.
 
 Here is a sample LogAppender which adds trace id to the logs:
 
