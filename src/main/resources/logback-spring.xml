@@ -35,7 +35,7 @@
         <appender-ref ref="AUDIT-FILE-LOG"/>
     </root>
 
-    <logger name="errorLogger" level="ERROR" additivity="true">
+    <logger name="com.eigi.spring.auditor.errorLogger" level="ERROR" additivity="true">
         <appender-ref ref="ERROR-FILE-LOG" />
     </logger>
 </configuration>

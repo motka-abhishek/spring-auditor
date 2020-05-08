@@ -1,4 +1,4 @@
-package motka.abhishek.auditor.annotations;
+package com.eigi.spring.auditor.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -6,6 +6,6 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
-@Target({ElementType.METHOD, ElementType.PARAMETER})
-public @interface DoNotAudit {
+@Target({ElementType.TYPE})
+public @interface Audit {
 }

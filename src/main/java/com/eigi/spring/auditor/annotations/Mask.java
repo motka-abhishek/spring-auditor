@@ -1,4 +1,4 @@
-package motka.abhishek.auditor.annotations;
+package com.eigi.spring.auditor.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

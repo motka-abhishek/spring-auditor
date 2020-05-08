@@ -8,16 +8,11 @@
         <version>2.2.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>motka.abhishek</groupId>
+    <groupId>com.eigi.spring</groupId>
     <artifactId>auditor</artifactId>
     <version>0.0.1</version>
     <name>auditor</name>
     <description>Logging library for spring application</description>
-
-    <properties>
-        <java.version>1.8</java.version>
-        <aspectj.version>1.9.5</aspectj.version>
-    </properties>
 
     <dependencies>
         <dependency>
@@ -35,23 +30,8 @@
             <version>3.10</version>
         </dependency>
         <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjrt</artifactId>
-            <version>${aspectj.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjweaver</artifactId>
-            <version>${aspectj.version}</version>
-        </dependency>
-        <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aspects</artifactId>
-            <version>5.2.5.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-tx</artifactId>
             <version>5.2.5.RELEASE</version>
         </dependency>
     </dependencies>

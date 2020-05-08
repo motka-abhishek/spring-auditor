@@ -1,8 +1,8 @@
-package motka.abhishek.auditor.aspects;
+package com.eigi.spring.auditor.aspects;
 
-import motka.abhishek.auditor.annotations.DoNotAudit;
-import motka.abhishek.auditor.annotations.Mask;
-import motka.abhishek.auditor.interfaces.LogAppender;
+import com.eigi.spring.auditor.annotations.DoNotAudit;
+import com.eigi.spring.auditor.annotations.Mask;
+import com.eigi.spring.auditor.interfaces.LogAppender;
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.aspectj.lang.JoinPoint;
@@ -11,10 +11,10 @@ import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.reflect.MethodSignature;
-import org.springframework.beans.factory.annotation.Autowire;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
@@ -22,14 +22,16 @@ import java.lang.reflect.Parameter;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 @Aspect
-@Configurable(autowire = Autowire.BY_TYPE)
+@Component
 public class AuditAspect
 {
 
     private final Logger logger = Logger.getLogger(AuditAspect.class.getName());
+    private final Logger errorLogger = Logger.getLogger("com.eigi.spring.auditor.errorLogger");
 
     private static final String MASKED_PARAM = "**********";
 
@@ -42,13 +44,18 @@ public class AuditAspect
                                                           Boolean.class,
                                                           String.class,
                                                           Character.class);
-    @Autowired(required = false)
+
     private List<LogAppender> logAppenders;
 
     @Value("${spring.application.name}")
     private String APPLICATION_NAME;
 
-    @Before("execution(* (@motka.abhishek.auditor.annotations.Audit *).*(..))")
+    @Autowired(required = false)
+    public AuditAspect(List<LogAppender> logAppenders) {
+        this.logAppenders = logAppenders;
+    }
+
+    @Before("execution(* (@com.eigi.spring.auditor.annotations.Audit *).*(..))")
     public void logMethodEntry(JoinPoint joinPoint)
     {
         Method method = getJoinPointMethod(joinPoint);
@@ -60,38 +67,39 @@ public class AuditAspect
         logger.info(entryMethodLog);
     }
 
-    @AfterReturning(pointcut = "execution(* (@motka.abhishek.auditor.annotations.Audit *).*(..))", returning = "retValue")
+    @AfterReturning(pointcut = "execution(* (@com.eigi.spring.auditor.annotations.Audit *).*(..))", returning = "retValue")
     public void logMethodExit(JoinPoint joinPoint, Object retValue) {
         Method method = getJoinPointMethod(joinPoint);
         if (Objects.nonNull(method.getAnnotation(DoNotAudit.class))) return;
 
         String exitMethodLog = getLogBuilder(joinPoint, false)
-                .append(" Returned: ")
+                .append("Returned: ")
                 .append(getReturnValueAsString(method, retValue))
                 .toString();
         logger.info(exitMethodLog);
     }
 
-    @AfterThrowing(pointcut = "execution(* (@motka.abhishek.auditor.annotations.Audit *).*(..))", throwing = "ex")
+    @AfterThrowing(pointcut = "execution(* (@com.eigi.spring.auditor.annotations.Audit *).*(..))", throwing = "ex")
     public void logMethodException(JoinPoint joinPoint, final Throwable ex) {
         Method method = getJoinPointMethod(joinPoint);
         if (Objects.nonNull(method.getAnnotation(DoNotAudit.class))) return;
 
         String methodExceptionLog = getLogBuilder(joinPoint, false)
-                .append(" Exception: ")
+                .append("Exception: ")
                 .append(getExceptionAsString(ex))
                 .toString();
 
-        logger.info(methodExceptionLog);
+        errorLogger.log(Level.SEVERE, methodExceptionLog);
     }
 
     private StringBuilder getLogBuilder(final JoinPoint joinPoint, boolean isEntry) {
-        return new StringBuilder("{ ")
+        return new StringBuilder("[ ")
                 .append(APPLICATION_NAME)
-                .append(" } - ")
+                .append(" ] - ")
                 .append(getAppendedLogs())
                 .append(isEntry ? "Entering >>> " : "Exiting <<< ")
-                .append(getFullyQualifiedMethodName(joinPoint));
+                .append(getFullyQualifiedMethodName(joinPoint))
+                .append(" ");
     }
 
     private String getExceptionAsString(final Throwable throwable) {
