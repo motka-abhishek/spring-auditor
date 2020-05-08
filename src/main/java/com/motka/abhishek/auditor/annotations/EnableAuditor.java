@@ -1,6 +1,6 @@
-package com.eigi.spring.auditor.annotations;
+package com.motka.abhishek.auditor.annotations;
 
-import com.eigi.spring.auditor.configs.AuditorAspectConfig;
+import com.motka.abhishek.auditor.configs.AuditorAspectConfig;
 import org.springframework.context.annotation.Import;
 
 import java.lang.annotation.ElementType;

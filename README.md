@@ -45,9 +45,9 @@ All entry and exit of the method will be logged in audit.\*.log file and all exc
 Logs in the above files have following format:
 
 ```$xslt
-2020-05-08 12:33:50,930 IMLMDVABHISHEKPA INFO  http-nio-8080-exec-1 com.eigi.spring.auditor.aspects.AuditAspect [ auditor-test ] - Entering >>> motka.abhishek.auditortest.TestObject.print Arguments: { name=abhishek }
-2020-05-08 12:33:50,938 IMLMDVABHISHEKPA INFO  http-nio-8080-exec-1 com.eigi.spring.auditor.aspects.AuditAspect [ auditor-test ] - Entering >>> motka.abhishek.auditortest.TestService.hello Arguments: { name=abhishek }
-2020-05-08 12:33:50,942 IMLMDVABHISHEKPA INFO  http-nio-8080-exec-1 com.eigi.spring.auditor.aspects.AuditAspect [ auditor-test ] - Exiting <<< motka.abhishek.auditortest.TestService.hello Returned: Hello abhishek
+2020-05-08 12:33:50,930 IMLMDVABHISHEKPA INFO  http-nio-8080-exec-1 AuditAspect [ auditor-test ] - Entering >>> motka.abhishek.auditortest.TestObject.print Arguments: { name=abhishek }
+2020-05-08 12:33:50,938 IMLMDVABHISHEKPA INFO  http-nio-8080-exec-1 AuditAspect [ auditor-test ] - Entering >>> motka.abhishek.auditortest.TestService.hello Arguments: { name=abhishek }
+2020-05-08 12:33:50,942 IMLMDVABHISHEKPA INFO  http-nio-8080-exec-1 AuditAspect [ auditor-test ] - Exiting <<< motka.abhishek.auditortest.TestService.hello Returned: Hello abhishek
 2020-05-08 12:33:50,943 IMLMDVABHISHEKPA ERROR http-nio-8080-exec-1 com.eigi.spring.auditor.errorLogger [ auditor-test ] - Exiting <<< motka.abhishek.auditortest.TestObject.print Exception: java.lang.NullPointerException Message: Empty name
 			motka.abhishek.auditortest.TestObject.print(TestObject.java:22)
 			motka.abhishek.auditortest.TestObject$$FastClassBySpringCGLIB$$3c53d81a.invoke(<generated>)
@@ -89,7 +89,7 @@ public class TestAppender implements LogAppender
 
 After you add log appender, the logs will look like below:
 
-`2020-05-08 12:42:30,244 IMLMDVABHISHEKPA INFO  http-nio-8080-exec-1 com.eigi.spring.auditor.aspects.AuditAspect [ auditor-test ] - [ bc82bce0-f71e-4e55-9613-b045cc378552 ] Entering >>> motka.abhishek.auditortest.TestObject.print Arguments: { name=abhishek }
+`2020-05-08 12:42:30,244 IMLMDVABHISHEKPA INFO  http-nio-8080-exec-1 AuditAspect [ auditor-test ] - [ bc82bce0-f71e-4e55-9613-b045cc378552 ] Entering >>> motka.abhishek.auditortest.TestObject.print Arguments: { name=abhishek }
 `
 
 In above log you can see Trace Id added: `[ bc82bce0-f71e-4e55-9613-b045cc378552 ]`.

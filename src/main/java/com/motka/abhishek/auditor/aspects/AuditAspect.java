@@ -1,8 +1,8 @@
-package com.eigi.spring.auditor.aspects;
+package com.motka.abhishek.auditor.aspects;
 
-import com.eigi.spring.auditor.annotations.DoNotAudit;
-import com.eigi.spring.auditor.annotations.Mask;
-import com.eigi.spring.auditor.interfaces.LogAppender;
+import com.motka.abhishek.auditor.annotations.DoNotAudit;
+import com.motka.abhishek.auditor.annotations.Mask;
+import com.motka.abhishek.auditor.interfaces.LogAppender;
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.aspectj.lang.JoinPoint;
@@ -52,10 +52,10 @@ public class AuditAspect
         this.logAppenders = logAppenders;
     }
 
-    @Pointcut("execution(@com.eigi.spring.auditor.annotations.Audit * *.*(..))")
+    @Pointcut("execution(@com.motka.abhishek.auditor.annotations.Audit * *.*(..))")
     void annotatedMethod() {}
 
-    @Pointcut("execution(* (@com.eigi.spring.auditor.annotations.Audit *).*(..)))")
+    @Pointcut("execution(* (@com.motka.abhishek.auditor.annotations.Audit *).*(..)))")
     void methodOfAnnotatedClass() {}
 
     @Before("annotatedMethod() || methodOfAnnotatedClass()")

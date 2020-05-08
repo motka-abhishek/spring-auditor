@@ -1,4 +1,4 @@
-package com.eigi.spring.auditor.interfaces;
+package com.motka.abhishek.auditor.interfaces;
 
 public interface LogAppender {
     String appendToLog();
