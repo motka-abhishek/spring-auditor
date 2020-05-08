@@ -6,10 +6,7 @@ import com.eigi.spring.auditor.interfaces.LogAppender;
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.annotation.AfterReturning;
-import org.aspectj.lang.annotation.AfterThrowing;
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.*;
 import org.aspectj.lang.reflect.MethodSignature;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -55,7 +52,13 @@ public class AuditAspect
         this.logAppenders = logAppenders;
     }
 
-    @Before("execution(* (@com.eigi.spring.auditor.annotations.Audit *).*(..))")
+    @Pointcut("execution(@com.eigi.spring.auditor.annotations.Audit * *.*(..))")
+    void annotatedMethod() {}
+
+    @Pointcut("execution(* (@com.eigi.spring.auditor.annotations.Audit *).*(..)))")
+    void methodOfAnnotatedClass() {}
+
+    @Before("annotatedMethod() || methodOfAnnotatedClass()")
     public void logMethodEntry(JoinPoint joinPoint)
     {
         Method method = getJoinPointMethod(joinPoint);
@@ -67,7 +70,7 @@ public class AuditAspect
         logger.info(entryMethodLog);
     }
 
-    @AfterReturning(pointcut = "execution(* (@com.eigi.spring.auditor.annotations.Audit *).*(..))", returning = "retValue")
+    @AfterReturning(pointcut = "annotatedMethod() || methodOfAnnotatedClass()", returning = "retValue")
     public void logMethodExit(JoinPoint joinPoint, Object retValue) {
         Method method = getJoinPointMethod(joinPoint);
         if (Objects.nonNull(method.getAnnotation(DoNotAudit.class))) return;
@@ -79,7 +82,7 @@ public class AuditAspect
         logger.info(exitMethodLog);
     }
 
-    @AfterThrowing(pointcut = "execution(* (@com.eigi.spring.auditor.annotations.Audit *).*(..))", throwing = "ex")
+    @AfterThrowing(pointcut = "annotatedMethod() || methodOfAnnotatedClass()", throwing = "ex")
     public void logMethodException(JoinPoint joinPoint, final Throwable ex) {
         Method method = getJoinPointMethod(joinPoint);
         if (Objects.nonNull(method.getAnnotation(DoNotAudit.class))) return;
