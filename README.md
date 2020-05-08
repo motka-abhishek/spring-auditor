@@ -13,7 +13,7 @@ In your project's pom.xml file add dependency for spring-auditor:
 
 ```$xslt
 <dependency>
-    <groupId>com.eigi.spring</groupId>
+    <groupId>com.motka.abhishek</groupId>
     <artifactId>auditor</artifactId>
     <version>0.0.1</version>
 </dependency>
